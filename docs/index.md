@@ -1,6 +1,25 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default
+title: Home
 ---
+
+# C++ Code Sample
+
+```
+    #include <stdio.h>
+    #include <iostream>
+    using namespace std;
+    int main(int argc, char* argv[])
+    {
+        cout << "Hello,World!" << endl;
+        return 0;
+    }
+```
+
+# Python Code Sample
+
+```
+import sys
+import os
+print("Hello,Python!")
+```
